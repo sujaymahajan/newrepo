@@ -1,0 +1,87 @@
+ WARN [2018-04-04 22:47:30,898] ({main} ZeppelinConfiguration.java[create]:97) - Failed to load configuration, proceeding with a default
+ INFO [2018-04-04 22:47:31,155] ({main} ZeppelinConfiguration.java[create]:109) - Server Host: 0.0.0.0
+ INFO [2018-04-04 22:47:31,156] ({main} ZeppelinConfiguration.java[create]:111) - Server Port: 8888
+ INFO [2018-04-04 22:47:31,156] ({main} ZeppelinConfiguration.java[create]:115) - Context Path: /
+ INFO [2018-04-04 22:47:31,162] ({main} ZeppelinConfiguration.java[create]:116) - Zeppelin Version: 0.7.3
+ INFO [2018-04-04 22:47:31,434] ({main} Log.java[initialized]:186) - Logging initialized @4923ms
+ INFO [2018-04-04 22:47:31,525] ({main} ZeppelinServer.java[setupWebAppContext]:346) - ZeppelinServer Webapp path: /opt/zeppelin/webapps
+ INFO [2018-04-04 22:47:36,360] ({main} ZeppelinServer.java[main]:187) - Starting zeppelin server
+ INFO [2018-04-04 22:47:36,362] ({main} Server.java[doStart]:327) - jetty-9.2.15.v20160210
+ INFO [2018-04-04 22:47:40,114] ({main} StandardDescriptorProcessor.java[visitServlet]:297) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ WARN [2018-04-04 22:47:40,480] ({main} Helium.java[loadConf]:101) - /opt/zeppelin/conf/helium.json does not exists
+ WARN [2018-04-04 22:47:40,876] ({main} Interpreter.java[register]:406) - Static initialization is deprecated for interpreter sql, You should change it to use interpreter-setting.json in your jar or interpreter/{interpreter}/interpreter-setting.json
+ INFO [2018-04-04 22:47:40,877] ({main} InterpreterSettingManager.java[init]:305) - Interpreter psql.sql found. class=org.apache.zeppelin.postgresql.PostgreSqlInterpreter
+ INFO [2018-04-04 22:47:41,049] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name ignite
+ INFO [2018-04-04 22:47:41,049] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name python
+ INFO [2018-04-04 22:47:41,049] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name jdbc
+ INFO [2018-04-04 22:47:41,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name psql
+ INFO [2018-04-04 22:47:41,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name lens
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name pig
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name flink
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name angular
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name livy
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name file
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name elasticsearch
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name cassandra
+ INFO [2018-04-04 22:47:41,052] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name sh
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name spark
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name md
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name alluxio
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name bigquery
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name hbase
+ INFO [2018-04-04 22:47:41,053] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name kylin
+ INFO [2018-04-04 22:47:41,084] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group elasticsearch : id=2DCK529HT, name=elasticsearch
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group jdbc : id=2DA15DSAG, name=jdbc
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group livy : id=2D9SDUTNS, name=livy
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group md : id=2DAH8YRUS, name=md
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group flink : id=2DAFPTW2C, name=flink
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group angular : id=2DA3MRJNS, name=angular
+ INFO [2018-04-04 22:47:41,085] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group ignite : id=2DB12KBDW, name=ignite
+ INFO [2018-04-04 22:47:41,086] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group cassandra : id=2DAKV3RSZ, name=cassandra
+ INFO [2018-04-04 22:47:41,086] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group sh : id=2DAXX6Z5M, name=sh
+ INFO [2018-04-04 22:47:41,086] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group alluxio : id=2DD34TJF1, name=alluxio
+ INFO [2018-04-04 22:47:41,086] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group pig : id=2DD3Q1UN6, name=pig
+ INFO [2018-04-04 22:47:41,086] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group hbase : id=2D9UVQVX4, name=hbase
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group psql : id=2DCDGMDGX, name=psql
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group python : id=2DAAAR2C2, name=python
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group spark : id=2DAFKVSB6, name=spark
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group kylin : id=2DBGMT52J, name=kylin
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group file : id=2DAVWDDWX, name=file
+ INFO [2018-04-04 22:47:41,087] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group lens : id=2DC8NR9BG, name=lens
+ INFO [2018-04-04 22:47:41,088] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group bigquery : id=2DAC4V6VY, name=bigquery
+ INFO [2018-04-04 22:47:41,094] ({main} InterpreterFactory.java[<init>]:130) - shiroEnabled: false
+ INFO [2018-04-04 22:47:41,151] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2018-04-04 22:47:41,479] ({main} GitNotebookRepo.java[<init>]:63) - Opening a git repo at '/mnt/zeppelin/notebooks'
+ INFO [2018-04-04 22:47:42,320] ({main} NotebookAuthorization.java[loadFromFile]:96) - /opt/zeppelin/conf/notebook-authorization.json
+ INFO [2018-04-04 22:47:42,321] ({main} Credentials.java[loadFromFile]:102) - /opt/zeppelin/conf/credentials.json
+ INFO [2018-04-04 22:47:42,388] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2018-04-04 22:47:42,392] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2018-04-04 22:47:42,410] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2018-04-04 22:47:42,412] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2018-04-04 22:47:42,413] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2018-04-04 22:47:42,413] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2018-04-04 22:47:42,413] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2018-04-04 22:47:42,414] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2018-04-04 22:47:42,414] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2018-04-04 22:47:42,416] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2018-04-04 22:47:42,541] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 0 notebooks took 124ms
+ INFO [2018-04-04 22:47:42,541] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 0 indexed in 0s
+ INFO [2018-04-04 22:47:42,729] ({main} ServerImpl.java[initDestination]:94) - Setting the server's publish address to be /
+ INFO [2018-04-04 22:47:43,530] ({main} ContextHandler.java[doStart]:744) - Started o.e.j.w.WebAppContext@17baae6e{/,file:/opt/zeppelin/webapps/webapp/,AVAILABLE}{/opt/zeppelin/zeppelin-web-0.7.3.war}
+ INFO [2018-04-04 22:47:43,546] ({main} AbstractConnector.java[doStart]:266) - Started ServerConnector@36361ddb{HTTP/1.1}{0.0.0.0:8888}
+ INFO [2018-04-04 22:47:43,546] ({main} Server.java[doStart]:379) - Started @17042ms
+ INFO [2018-04-04 22:47:43,546] ({main} ZeppelinServer.java[main]:197) - Done, zeppelin server started
+ WARN [2018-04-04 22:47:51,884] ({qtp1632392469-40} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2018-04-04 22:47:52,164] ({qtp1632392469-17} NotebookServer.java[onOpen]:157) - New connection from 10.0.1.21 : 55567
+ INFO [2018-04-04 22:47:55,925] ({qtp1632392469-19} NotebookServer.java[onClose]:364) - Closed connection to 10.0.1.21 : 55567. (1001) null
+ INFO [2018-04-04 22:48:01,742] ({Thread-13} ZeppelinServer.java[run]:201) - Shutting down Zeppelin Server ... 
+ INFO [2018-04-04 22:48:01,745] ({Thread-13} AbstractConnector.java[doStop]:306) - Stopped ServerConnector@36361ddb{HTTP/1.1}{0.0.0.0:8888}
+ INFO [2018-04-04 22:48:01,750] ({Thread-13} ContextHandler.java[doStop]:865) - Stopped o.e.j.w.WebAppContext@17baae6e{/,file:/opt/zeppelin/webapps/webapp/,UNAVAILABLE}{/opt/zeppelin/zeppelin-web-0.7.3.war}
+ INFO [2018-04-04 22:48:03,108] ({Thread-13} NotebookRepoSync.java[close]:430) - Closing all notebook storages

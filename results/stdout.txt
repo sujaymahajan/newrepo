@@ -1,0 +1,74 @@
+[I 17:31:48.795 LabApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 17:31:49.019 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 17:31:50.818 LabApp] jupyter_tensorboard extension loaded.
+[I 17:31:50.821 LabApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.6/site-packages/jupyterlab
+[I 17:31:50.821 LabApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[W 17:31:50.838 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 17:31:50.839 LabApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.6/site-packages/jupyterlab
+[I 17:31:50.839 LabApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[I 17:31:50.855 LabApp] Serving notebooks from local directory: /
+[I 17:31:50.855 LabApp] The Jupyter Notebook is running at:
+[I 17:31:50.855 LabApp] http://(domino-run-5bc0da794cedfd00079655a6 or 127.0.0.1):8888/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/
+[I 17:31:50.855 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 17:31:50.859 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.53ms
+[I 17:31:50.860 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.33ms
+[I 17:31:51.047 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.57ms
+[I 17:31:51.079 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.57ms
+[I 17:31:51.159 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.42ms
+[I 17:31:51.194 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.55ms
+[I 17:31:51.227 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.44ms
+[I 17:31:51.263 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.65ms
+[I 17:31:51.294 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.51ms
+[I 17:31:52.914 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.64ms
+[I 17:31:52.993 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.58ms
+[W 17:31:54.942 LabApp] 404 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/workspaces/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab?1539365508155 (10.0.1.21): Workspace 'domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab' ('domino-sujaymquick-startnotebooksession5bc0da794cedfd00079655a6lab-091f') not found
+[W 17:31:54.943 LabApp] Workspace 'domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab' ('domino-sujaymquick-startnotebooksession5bc0da794cedfd00079655a6lab-091f') not found
+[W 17:31:54.943 LabApp] 404 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/workspaces/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab?1539365508155 (10.0.1.21) 1.74ms referer=https://5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/tree/mnt?
+[W 17:31:55.827 LabApp] Build recommended
+[W 17:31:55.827 LabApp] jupyter-matplotlib needs to be included in build
+[W 17:32:10.607 LabApp] Build failed, running a clean and rebuild
+[W 17:32:10.608 LabApp] 500 POST /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/build?1539365522794 (10.0.13.102): [Errno 13] Permission denied: 'yarn.js'
+[W 17:32:10.608 LabApp] [Errno 13] Permission denied: 'yarn.js'
+[E 17:32:10.609 LabApp] {
+      "Host": "5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech",
+      "X-Real-Ip": "10.0.30.123",
+      "X-Forwarded-For": "10.0.30.123",
+      "Connection": "close",
+      "Content-Length": "0",
+      "Origin": "https://5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech",
+      "X-Xsrftoken": "2|ac7194e1|2355b13eca3c2c8c6911672c173aa4ae|1539365511",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Referer": "https://5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "mp_ed271a4e0468936168af7622eeeab120_mixpanel=%7B%22distinct_id%22%3A%20%22599f7c271ff4516f7bc7cf64%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22domino-sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; mp_7babb9109a429a5063e402a681b6476e_mixpanel=%7B%22distinct_id%22%3A%20%225a2742557854847a365a309f%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22domino-sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; mp_none_mixpanel=%7B%22distinct_id%22%3A%20%225a811420d234079598afc790%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22domino-sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; mp_aff1b35cae39fd5368dc95ec3f77ad95_mixpanel=%7B%22distinct_id%22%3A%20%225a5ea109221460df63c7a239%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fflexshopper.domino.tech%2Fenvironments%2F5a60fa2f0cdc0a10ea863f71%2Frevisions%2Fcreate%22%2C%22%24initial_referring_domain%22%3A%20%22flexshopper.domino.tech%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22domino-sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; mp_702eee9dd72da264c1ab03d66784564f_mixpanel=%7B%22distinct_id%22%3A%20%2259e91edb1cb4cc6f26674b96%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Ftii.domino.tech%2Flogin%22%2C%22%24initial_referring_domain%22%3A%20%22tii.domino.tech%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22domino-sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; intercom-lou-ca1ff9b9b3e6ec502dd74ef8356046ed57cefec8=1; _ga=GA1.2.1864669659.1532998079; mp_7d1d31de94ff6d5997e0c10cbd87f147_mixpanel=%7B%22distinct_id%22%3A%20%2259de45b6f5540f5e2582ef89%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24username%22%3A%20%22sujaym%22%2C%22%24email%22%3A%20%22sujay.mahajan%40dominodatalab.com%22%7D; intercom-session-ca1ff9b9b3e6ec502dd74ef8356046ed57cefec8=ZUlhRGpLTnZTVkV4dGJqa2NIWHp5TEM3enJoaDRXbXNJNGEwUU9BWUdBSlhGb0dDOEVJZlF6QStCN2tKcUhWRi0tMFJKNndNMDZpRmtTQ3NxWFkzYXBJdz09--c658483b88c43985ac567690ad86f4eba111e5ff; mp_N/A_mixpanel=%7B%22distinct_id%22%3A%20%22164c8114e8f93-0a5103ea531ecb-16386953-13c680-164c8114e90dec%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fcloud-shiny.domino.tech%2Foverview%22%2C%22%24initial_referring_domain%22%3A%20%22cloud-shiny.domino.tech%22%7D; mp_mixpanel__c=0; _xsrf=2|ac7194e1|2355b13eca3c2c8c6911672c173aa4ae|1539365511"
+    }
+[E 17:32:10.610 LabApp] 500 POST /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/build?1539365522794 (10.0.13.102) 1029.18ms referer=https://5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab
+[I 17:32:48.890 LabApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 17:32:48.891 LabApp] Notebook mnt/main.ipynb is not trusted
+[I 17:32:49.280 LabApp] Kernel started: e93affa0-a2be-4a00-b194-121fa7e6a446
+[I 17:32:49.826 LabApp] Adapting to protocol v5.1 for kernel e93affa0-a2be-4a00-b194-121fa7e6a446
+[I 17:32:49.936 LabApp] Adapting to protocol v5.1 for kernel e93affa0-a2be-4a00-b194-121fa7e6a446
+[W 17:47:49.829 LabApp] WebSocket ping timeout after 119970 ms.
+[I 17:47:54.835 LabApp] Starting buffering for e93affa0-a2be-4a00-b194-121fa7e6a446:a789ff9d-4e2a-4bf1-9896-519da91c07e5
+[I 17:50:10.617 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.47ms
+[I 17:50:10.618 LabApp] Adapting to protocol v5.1 for kernel e93affa0-a2be-4a00-b194-121fa7e6a446
+[I 17:50:10.618 LabApp] Restoring connection for e93affa0-a2be-4a00-b194-121fa7e6a446:a789ff9d-4e2a-4bf1-9896-519da91c07e5
+[I 17:58:49.453 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.57ms
+[I 18:14:25.341 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.61ms
+[I 18:14:46.422 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.65ms
+[I 18:14:46.509 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.1.21) 0.56ms
+[W 18:14:57.208 LabApp] 404 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/workspaces/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/workspaces/test?1539368091121 (10.0.13.102): Workspace 'domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/workspaces/test' ('domino-sujaymquick-startnotebooksession5bc0da794cedfd00079655a6labworkspacestest-d472') not found
+[W 18:14:57.209 LabApp] Workspace 'domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/workspaces/test' ('domino-sujaymquick-startnotebooksession5bc0da794cedfd00079655a6labworkspacestest-d472') not found
+[W 18:14:57.209 LabApp] 404 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/api/workspaces/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/workspaces/test?1539368091121 (10.0.13.102) 1.49ms referer=https://5bc0da794cedfd00079655a6-workspace.cloud-shiny.domino.tech/domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6/lab/workspaces/test
+[W 18:14:58.118 LabApp] Build recommended
+[W 18:14:58.118 LabApp] jupyter-matplotlib needs to be included in build
+[I 18:16:03.758 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 18:19:26.205 LabApp] 302 GET /domino-sujaym/quick-start/notebookSession/5bc0da794cedfd00079655a6 (10.0.13.102) 0.61ms
+[W 18:20:51.849 LabApp] Notebook mnt/main.ipynb is not trusted
+[I 18:20:52.316 LabApp] Adapting to protocol v5.1 for kernel e93affa0-a2be-4a00-b194-121fa7e6a446
+[I 18:20:57.129 LabApp] Adapting to protocol v5.1 for kernel e93affa0-a2be-4a00-b194-121fa7e6a446

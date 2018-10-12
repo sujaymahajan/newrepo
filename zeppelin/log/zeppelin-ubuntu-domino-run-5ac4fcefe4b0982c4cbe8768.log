@@ -1,0 +1,39 @@
+ WARN [2018-04-04 16:36:06,668] ({main} ZeppelinConfiguration.java[create]:97) - Failed to load configuration, proceeding with a default
+ INFO [2018-04-04 16:36:06,713] ({main} ZeppelinConfiguration.java[create]:109) - Server Host: 0.0.0.0
+ INFO [2018-04-04 16:36:06,714] ({main} ZeppelinConfiguration.java[create]:111) - Server Port: 8888
+ INFO [2018-04-04 16:36:06,714] ({main} ZeppelinConfiguration.java[create]:115) - Context Path: /
+ INFO [2018-04-04 16:36:06,719] ({main} ZeppelinConfiguration.java[create]:116) - Zeppelin Version: 0.7.3
+ INFO [2018-04-04 16:36:06,738] ({main} Log.java[initialized]:186) - Logging initialized @392ms
+ INFO [2018-04-04 16:36:06,819] ({main} ZeppelinServer.java[setupWebAppContext]:346) - ZeppelinServer Webapp path: /opt/zeppelin/webapps
+ INFO [2018-04-04 16:36:07,039] ({main} ZeppelinServer.java[main]:187) - Starting zeppelin server
+ INFO [2018-04-04 16:36:07,041] ({main} Server.java[doStart]:327) - jetty-9.2.15.v20160210
+ WARN [2018-04-04 16:36:07,060] ({main} WebAppContext.java[doStart]:514) - Failed startup of context o.e.j.w.WebAppContext@17baae6e{/,null,null}{/opt/zeppelin/zeppelin-web-0.7.3.war}
+java.lang.IllegalStateException: Temp dir /opt/zeppelin/webapps not useable: writeable=false, dir=false
+	at org.eclipse.jetty.webapp.WebInfConfiguration.configureTempDirectory(WebInfConfiguration.java:384)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.resolveTempDirectory(WebInfConfiguration.java:260)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.preConfigure(WebInfConfiguration.java:69)
+	at org.eclipse.jetty.webapp.WebAppContext.preConfigure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:504)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:163)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.zeppelin.server.ZeppelinServer.main(ZeppelinServer.java:189)
+ INFO [2018-04-04 16:36:07,077] ({main} AbstractConnector.java[doStart]:266) - Started ServerConnector@33cb5951{HTTP/1.1}{0.0.0.0:8888}
+ INFO [2018-04-04 16:36:07,077] ({main} Server.java[doStart]:379) - Started @734ms
+ INFO [2018-04-04 16:36:07,077] ({main} ZeppelinServer.java[main]:197) - Done, zeppelin server started
+ INFO [2018-04-04 16:56:21,275] ({Thread-10} ZeppelinServer.java[run]:201) - Shutting down Zeppelin Server ... 
+ INFO [2018-04-04 16:56:21,280] ({Thread-10} AbstractConnector.java[doStop]:306) - Stopped ServerConnector@33cb5951{HTTP/1.1}{0.0.0.0:8888}
+ INFO [2018-04-04 16:56:21,281] ({Thread-10} ContextHandler.java[doStop]:865) - Stopped o.e.j.w.WebAppContext@17baae6e{/,null,UNAVAILABLE}{/opt/zeppelin/zeppelin-web-0.7.3.war}
+ERROR [2018-04-04 16:56:21,287] ({Thread-10} ZeppelinServer.java[run]:208) - Error while stopping servlet container
+java.lang.NullPointerException
+	at org.apache.zeppelin.server.ZeppelinServer$1.run(ZeppelinServer.java:204)
+ INFO [2018-04-04 16:56:21,287] ({Thread-10} ZeppelinServer.java[run]:210) - Bye
